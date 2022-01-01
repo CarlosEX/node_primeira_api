@@ -533,21 +533,20 @@ Eu poderia resumir esse artigo da seguinte forma:
 Pessoal, criei minha primeira api em node.js, vejam o código:
 
 
-`
-const express = require('express');
-const server = express();
 
-server.get('/api/user',(req, res) => {
+`const express = require('express');
+const server = express();`
+
+`server.get('/api/user',(req, res) => {
  return res.json({usuario:'Pedro'})
-});
+});`
 
-server.listen(3000, () => {
+`server.listen(3000, () => {
  console.log('Servidor em execução...')
-});
+});`
 
 
 Muito obrigado!
-`
 
 
 Mas o intuito não era esse, e sim, poder compartilhar o conhecimento aprendido de algo novo, através da experiência dos erros.
