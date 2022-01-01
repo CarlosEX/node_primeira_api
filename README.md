@@ -219,18 +219,16 @@ Para poder editar esse arquivo eu utilizei o VIM. No terminal, eu digitei o segu
 Após isso, eu apertei a letra i, e em seguida, escrevi o código abaixo
 
 
-`
-const express = require('express');
-const server = express();
+ `const express = require('express');
+  const server = express();`
 
-server.get('/api/user',(req, res) => {
- return res.json({usuario:'Pedro'})
-});
+ `server.get('/api/user',(req, res) => {
+    return res.json({usuario:'Pedro'})
+  });`
 
-server.listen(3000, () => {
- console.log('Servidor em execução...')
-});
-`
+  `server.listen(3000, () => {
+     console.log('Servidor em execução...')
+   });`
 
 Feito isso, eu apertei o esc, depois : “dois pontos” e em seguida as letras “wq” para salvar as alterações e sair do VIM.
 
